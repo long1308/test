@@ -1,0 +1,29 @@
+:root {
+    --wd-container-w: 1222px;
+    --color--primary: rgba(121, 179, 138, 1);
+    --color--white: #ffffff;
+    --color--848484: #848484;
+    --color--79b38a: #79b38a;
+    --color--333333: #333333;
+    --color--212121: #212121;
+    --color--777777: #777777;
+    --color--909090: #909090;
+    --color--25a955: #25a955;
+    --color--242424: #242424;
+    --color--3B5998: #3B5998;
+    --color--4285F4: #4285F4;
+    --color--rgba-25525: rgba(255, 255, 255, .25);
+    --color--rgba-2252258: rgba(255, 255, 255, .8);
+    --color--rgba-5151516: rgba(51, 51, 51, .6);
+    --color--rgba-5151517: rgba(51, 51, 51, .7);
+    --color--rgba-00015: rgba(0, 0, 0, .15);
+    --color--000025: rgba(0, 0, 0, 0.25);
+    --color--rgba-828245: rgba(82, 82, 82, .45);
+    --color--rgba-2322321: rgba(232, 232, 232, 1);
+    --color--rgba-00004: rgba(0, 0, 0, .04);
+    --color--rgba-000105: rgba(0, 0, 0, .105);
+    --color--rgba-00008: rgba(0, 0, 0, .08);
+    --color--rgba-0001: rgba(0, 0, 0, .1);
+    --font-Karla: Karla, Arial, Helvetica, sans-serif;
+    --font-Lora: "Lora", Arial, Helvetica, sans-serif;
+}

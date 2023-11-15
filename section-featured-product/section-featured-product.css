@@ -1,0 +1,14 @@
+.colection-hm2__subtitle {
+    font-size: 14px;
+    color: var(--color-theme);
+}
+
+.colection-hm2__title {
+    margin: 10px 0;
+    font-size: calc(var(--heading-2) - 2px)
+}
+
+.colection-hm2__after {
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
