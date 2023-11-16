@@ -12,3 +12,228 @@
     margin-bottom: 10px;
     opacity: 0.6;
 }
+
+.colection-hm2__tabs {
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    white-space: nowrap;
+    gap: 30px;
+    padding-bottom: 10px;
+    display: flex; 
+}
+
+
+.colection-hm2__tabs a {
+    color: var(--color-second);
+    opacity: 0.6;
+}
+
+.colection-hm2__tabs a:hover {
+    opacity: 1;
+}
+
+.tablinks::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-theme);
+    transition: width 0.4s cubic-bezier(.19, 1, .22, 1)
+}
+
+.tablinks.active {
+    opacity: 1;
+}
+
+.tablinks.active::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-theme);
+    transition: width 0.4s cubic-bezier(.19, 1, .22, 1)
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+.colection-hm2__item {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.colection-hm2__body {
+    margin-top: 10px;
+}
+
+.colection-hm2__item__title {
+    margin-top: 10px;
+}
+
+.colection-hm2__item__title:hover,
+.colection-hm2__item__link:hover,
+.colection-hm2__prev:hover,
+.colection-hm2__next:hover {
+    opacity: 0.7;
+}
+
+.colection-hm2__item__link {
+    opacity: 0.5;
+    font-size: 13.3px;
+    color: var(--color-second);
+}
+
+.colection-hm2__item__star svg {
+    fill: var(--btn--yellow);
+}
+
+.colection-hm2__item__price span:nth-child(1) {
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-size: 12.6px;
+    display: inline-block;
+}
+
+.colection-hm2__item__price span:nth-child(2) {
+    font-size: 14px;
+    margin-left: 2px;
+    color: var(--color-theme);
+}
+
+.colection-hm2__item__new,
+.colection-hm2__item__onsale {
+    top: 13px;
+    background-color: var(--btn--green);
+    padding: 5px 10px;
+    min-width: 50px;
+    color: var(--color-primary);
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.colection-hm2__item__onsale {
+    opacity: .6;
+}
+
+.colection-hm2__btns {
+    background: var(--bg-primary);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    text-align: center;
+    transition: all .5s ease-in-out;
+    z-index: 3;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -15px);
+    border-radius: 35px;
+}
+
+.colection-hm2__btns .colection-hm2__btn__icon:nth-child(3),
+.colection-hm2__btns .colection-hm2__btn__icon:nth-child(2) {
+    display: none;
+}
+
+.colection-hm2__btn__icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.colection-hm2__btn__icon {
+    width: 35px;
+    height: 35px;
+}
+
+.colection-hm2__btn__icon svg:hover {
+    opacity: 0.7;
+}
+
+.colection-hm2__item:hover .colection-hm2__btns {
+    transform: translate(-50%, -20px);
+}
+
+/* //tool tip  */
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--bg-second);
+    color: var(--color-primary);
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--bg-second) transparent transparent transparent;
+}
+
+.colection-hm2__btns span {
+    font-size: 12px;
+}
+
+.colection-hm2__btn__icon:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.colection-hm2__prev {
+    top: 40%;
+    right: 0;
+    width: 18px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.colection-hm2__next {
+    top: 40%;
+    left: -0;
+    width: 18px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+@media (min-width: 992px) {
+    .colection-hm2__item__img {
+        overflow: hidden;
+    }
+
+    .colection-hm2__btns {
+        transform: translate(-50%, 45px);
+        border-radius: 0;
+
+    }
+
+    .colection-hm2__btns .colection-hm2__btn__icon:nth-child(3),
+    .colection-hm2__btns .colection-hm2__btn__icon:nth-child(2) {
+        display: flex;
+    }
+
+    .colection-hm2__btn__icon svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .colection-hm2__btn__icon {
+        width: 43px;
+        height: 45px;
+    }
+}

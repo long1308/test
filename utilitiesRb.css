@@ -499,7 +499,9 @@ button {
 .ai-end {
   align-items: end;
 }
-
+.ai-start {
+  align-items: start;
+}
 /*------------------------------------*/
 /* #TEXT-ALIGN */
 /*------------------------------------*/

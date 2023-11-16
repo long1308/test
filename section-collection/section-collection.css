@@ -36,7 +36,7 @@
 .colection-hm1__item:nth-child(1) h4 {
     font-size: calc(var(--heading-3) + 17px)
 }
-
+    
 .colection-hm1__item:nth-child(4) .colection-hm1-body {
     display: none;
 }

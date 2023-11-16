@@ -1,0 +1,168 @@
+.colection-hm5__subtitle {
+    font-size: 14px;
+    color: var(--color-theme);
+}
+
+.colection-hm5__title {
+    margin: 10px 0;
+    font-size: calc(var(--heading-2) - 2px)
+}
+
+.colection-hm5__after {
+    margin-bottom: 25px;
+    opacity: 0.6;
+}
+
+/* //item  */
+.colection-hm5__magazine__img {
+    overflow: hidden;
+}
+
+.colection-hm5__magazine__img img {
+    transition: transform 0.5s;
+}
+
+.colection-hm5__magazines .overlay::after {
+    opacity: 0;
+    transition: .5s;
+}
+
+.colection-hm5__magazine__item:hover .overlay::after,
+.colection-hm5__magazine__after {
+    opacity: 0.5;
+}
+
+.colection-hm5__magazine__title {
+    font-size: calc(var(--heading-2) - 6px);
+    padding: 12px 25px;
+    font-weight: 400;
+}
+
+.colection-hm5__magazine__item:hover .colection-hm5__magazine__img img {
+    transform: scale(1.1);
+}
+
+.colection-hm5__magazine__item {
+    padding: 0 10px;
+}
+
+/* //css  */
+.colection-hm5__body__meta {
+    padding: 0 10px;
+    line-height: 25px;
+    left: 50%;
+    font-size: 12px;
+    margin-top: -36px;
+    transform: translateX(-50%);
+    background-color: var(--bg-theme);
+    color: var(--color-primary);
+    overflow: hidden;
+}
+
+.colection-hm5__body__meta:hover {
+    color: var(--color-primary);
+}
+
+.colection-hm5__body__date {
+    top: 10px;
+    left: 20px;
+    z-index: 2;
+    min-width: 53px;
+    background-color: var(--bg-primary);
+    box-shadow: 0 0 9px rgba(0, 0, 0, .1);
+    text-align: center;
+    line-height: 1;
+}
+
+.hm5__body__day {
+    padding-top: 6px;
+    padding-bottom: 4px;
+    font-size: 24px;
+}
+
+.hm5__body__month {
+    font-size: 12px;
+    padding: 0 2px 8px 0;
+}
+
+.colection-hm5__body__link {
+    color: var(--color-second);
+}
+
+.colection-hm5__body__link:hover {
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+
+.colection-hm5__body {
+    padding: 25px 10px 10px 10px;
+}
+
+.colection-hm5__body-entry {
+    margin-top: 15px;
+}
+
+.colection-hm5__body-entry ul {
+    gap: 15px;
+    opacity: 0.7;
+}
+
+.colection-hm5__body-entry li:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.colection-hm5__body-entry li:nth-child(1),
+.colection-hm5__body-entry li:nth-child(5) {
+    display: none;
+}
+
+.colection-hm5__body-entry li:nth-child(4) span {
+    top: -4px;
+    right: -4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #bbb;
+    color: var(--color-primary);
+    text-align: center;
+    font-size: 9px;
+    line-height: 14px;
+}
+
+.colection-hm5-magazine {
+    margin: 0 5px;
+}   
+.colection-hm5__slider .slick-dots li button:before {
+    font-size: 12px;
+}
+
+.colection-hm2__prev {
+    top: 50%;
+    transform: translateY(-50%);
+    right: -20px;
+    width: 18px;
+    transition: all .5s ease-in-out;
+}
+
+.colection-hm2__next {
+    top: 50%;
+    transform: translateY(-50%);
+    left: -20px;
+    width: 18px;
+    transition: all .5s ease-in-out;
+}
+
+@media (min-width: 992px) {
+    .colection-hm5__body-entry li:nth-child(1) {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .colection-hm5__body-entry li:nth-child(5) {
+        display: block;
+    }
+}
