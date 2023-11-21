@@ -68,7 +68,7 @@ html {
     --heading-5: 2.2rem;
     --heading-6: 1.4rem;
     /* subtitle section */
-    --font-size-body: 1.4rem;
+    --font-size-body: 1.6em;
     /* use for content */
   }
 }
@@ -97,7 +97,7 @@ html {
     --heading-5: 2.2rem;
     --heading-6: 1.4rem;
     /* subtitle section */
-    --font-size-body: 1.6rem;
+    --font-size-body: 1.4rem;
     /* use for content */
 
   }

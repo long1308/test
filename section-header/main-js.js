@@ -16,11 +16,10 @@ function closeLogin() {
   document.querySelector(".login-navigation").classList.remove("show");
   document.querySelector(".overlay").style.display = "none";
 }
-
 function openLogin(event) {
   event.preventDefault();
   document.querySelector(".login-navigation").classList.add("show");
-  document.querySelector(".overlay").style.display = "block";
+  // document.querySelector(".overlay").style.display = "block";
 }
 function closeCart() {
   document.querySelector(".cart-navigation").classList.remove("show");

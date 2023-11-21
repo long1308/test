@@ -1,0 +1,91 @@
+.banner-box {
+    padding: 60px 0;
+}
+
+.banner-box p {
+    font-weight: 400;
+    font-size: var(--heading-2);
+}
+
+.banner__image {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.banner__image img {
+    height: 100%;
+}
+.banner__form {
+    height: 42px;
+    margin: 20px 0;
+}
+
+.banner__form input[type='email'] {
+    padding: 16px 15px;
+    border: 1px solid var(--color-rgba-0001);
+    background-color: transparent;
+    width: 30%;
+    transition: border-color .5s ease;
+    outline: none;
+    margin-right: 6px;
+}
+
+.banner__form input[type='submit'] {
+    padding: 15px 35px;
+    padding-inline: 35px;
+    color: var(--color-primary);
+    background-color: var(--bg-theme);
+}
+
+.banner__desc {
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.banner__icons {
+    margin-top: 20px;
+}
+
+.banner__title {
+    margin-top: 10px;
+}
+
+.banner__icons li {
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid var(--color-ccc);
+    background-color: transparent;
+    color: var(--color-rgba-0004);
+    transition: all .5s ease;
+}
+
+.banner__icons li svg {
+    fill: var(--color-rgba-0004);
+    height: 15px;
+    width: 15px;
+}
+
+.banner__icons li:hover {
+    fill: var(--color-primary);
+}
+
+.banner__icons li:nth-child(1):hover {
+    background-color: var(--color-365493);
+}
+
+.banner__icons li:nth-child(2):hover {
+    background-color: var(--color-3cf);
+}
+
+.banner__icons li:nth-child(3):hover {
+    background-color: var(--color-F89A1E);
+}
+
+.banner__icons li:nth-child(4):hover {
+    background-color: var(--color-CB2027);
+}

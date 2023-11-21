@@ -1,11 +1,11 @@
 $(document).ready(function () {
-  $(".colection-hm3__slider").slick({
+  $(".category-slider").slick({
     slidesToShow: 3,
     slidesToScroll: 2,
     arrows: true,
     dots: true,
-    nextArrow: $(".slide-prev__category"),
-    prevArrow: $(".slide-next__category"),
+    nextArrow: $(".category__slider--prev"),
+    prevArrow: $(".category__slider--next"),
     responsive: [
       {
         breakpoint: 1200,

@@ -1,16 +1,16 @@
 $(document).ready(function () {
-  $(".new-slider").slick({
-    slidesToShow: 3,
-    slidesToScroll: 2,
+  $(".about__slider").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
     arrows: true,
     dots: true,
-    nextArrow: $(".slider__new--prev"),
-    prevArrow: $(".slider__new--next"),
+    nextArrow: $(".about__slider--prev"),
+    prevArrow: $(".about__slider--next"),
     responsive: [
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           arrows: true,
           infinite: true,
           dots: true,
@@ -19,13 +19,13 @@ $(document).ready(function () {
       {
         breakpoint: 991,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
       {

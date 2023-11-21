@@ -24,7 +24,7 @@ function openTabs(el) {
 }
 
 $(document).ready(function () {
-  $(".colection-hm2__slider__bestsellers").slick({
+  $(".slider__bestsellers").slick({
     slidesToShow: 4,
     slidesToScroll: 2,
     arrows: true,
@@ -62,7 +62,7 @@ $(document).ready(function () {
   });
 });
 $(document).ready(function () {
-  $(".colection-hm2__slider__featured").slick({
+  $(".slider__featured").slick({
     slidesToShow: 4,
     slidesToScroll: 2,
     arrows: true,
@@ -100,7 +100,7 @@ $(document).ready(function () {
   });
 });
 $(document).ready(function () {
-  $(".colection-hm2__slider__sales").slick({
+  $(".slider__sales").slick({
     slidesToShow: 4,
     slidesToScroll: 2,
     arrows: true,

@@ -3,27 +3,81 @@
     --color--primary: rgba(121, 179, 138, 1);
     --color--white: #ffffff;
     --color--848484: #848484;
+    /* #lấy */
     --color--79b38a: #79b38a;
+    /* #lấy */
     --color--333333: #333333;
+    /* #lấy */
     --color--212121: #212121;
+    /* #lấy */
     --color--777777: #777777;
+    /* #lấy */
     --color--909090: #909090;
+    /* #lấy */
     --color--25a955: #25a955;
     --color--242424: #242424;
+    /* #lấy */
     --color--3B5998: #3B5998;
+    /* #lấy */
     --color--4285F4: #4285F4;
+    /* #lấy */
     --color--rgba-25525: rgba(255, 255, 255, .25);
+    /* #lấy */
     --color--rgba-2252258: rgba(255, 255, 255, .8);
     --color--rgba-5151516: rgba(51, 51, 51, .6);
     --color--rgba-5151517: rgba(51, 51, 51, .7);
     --color--rgba-00015: rgba(0, 0, 0, .15);
+    /* lấy */
     --color--000025: rgba(0, 0, 0, 0.25);
     --color--rgba-828245: rgba(82, 82, 82, .45);
     --color--rgba-2322321: rgba(232, 232, 232, 1);
+    /* lấy */
     --color--rgba-00004: rgba(0, 0, 0, .04);
+    /* lấy */
     --color--rgba-000105: rgba(0, 0, 0, .105);
+    /* lấy */
     --color--rgba-00008: rgba(0, 0, 0, .08);
+    /* lấy */
     --color--rgba-0001: rgba(0, 0, 0, .1);
+    /* lấy */
     --font-Karla: Karla, Arial, Helvetica, sans-serif;
     --font-Lora: "Lora", Arial, Helvetica, sans-serif;
+    /* // */
+    --box-shadow-0001: rgba(0, 0, 0, .1);
+    --box-shadow-00022: rgba(0, 0, 0, .22);
+    --border-000105: rgba(0, 0, 0, .105);
+    --color-rgba-0001: rgba(0, 0, 0, .1);
+    --color-rgba-0004: rgba(0, 0, 0, .4);
+    --color-rgba-000105: rgba(0, 0, 0, .105);
+    --color-ccc: #CCC;
+    --color-f1f1f1: #f1f1f1;
+    --color-bbb: #bbb;
+    --color-365493: #365493;
+    --color-3cf: #3CF;
+    --color-F89A1E: #F89A1E;
+    --color-CB2027: #CB2027;
+}
+
+.desc {
+    text-align: center;
+    display: inline-block;
+    opacity: 0.6;
+    margin-bottom: 15px;
+}
+
+.section__subtitle {
+    color: var(--color-theme);
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.section__title {
+    padding-bottom: 10px;
+}
+
+.section__desc {
+    display: inline-block;
+    margin-bottom: 25px;
+    opacity: 0.6;
 }
